@@ -1,19 +1,29 @@
 {
     "name": "uview-snippet",
     "displayName": "uview-snippet",
-    "description": "",
+    "description": "uview代码提示",
     "version": "0.0.1",
+    "publisher": "xiashui",
     "engines": {
         "vscode": "^1.52.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xiashui1994/uview-snippet"
+    },
+    "keywords": [
+        "uniapp",
+        "uview",
+        "snippet"
+    ],
     "categories": [
         "Snippets"
     ],
     "contributes": {
         "snippets": [
             {
-                "language": "javascript",
-                "path": "./snippets/snippets.code-snippets"
+                "language": "vue-html",
+                "path": "./snippets/components.json"
             }
         ]
     }
