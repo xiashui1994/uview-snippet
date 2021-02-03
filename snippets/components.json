@@ -3,5 +3,43 @@
         "prefix": "u-icon",
         "body": "<u-icon name=\"$1\"></u-icon>",
         "description": "Icon 图标"
+    },
+    "u-image": {
+        "prefix": "u-image",
+        "body": "<u-image src=\"$1\" mode=\"$2\"></u-image>",
+        "description": "Image 图片"
+    },
+    "u-button": {
+        "prefix": "u-button",
+        "body": "<u-button>$1</u-button>",
+        "description": "Button 按钮"
+    },
+    "u-row": {
+        "prefix": "u-row",
+        "body": [
+            "<u-row gutter=\"$1\">",
+            "\t<u-col span=\"$2\"></u-col>",
+            "</u-row>"
+        ],
+        "description": "Layout 布局"
+    },
+    "u-cell-group": {
+        "prefix": "u-cell-group",
+        "body": [
+            "<u-cell-group>",
+            "\t<u-cell-item icon=\"$1\" title=\"$2\"></u-cell-item>",
+            "</u-cell-group>"
+        ],
+        "description": "Cell 单元格"
+    },
+    "u-badge": {
+        "prefix": "u-badge",
+        "body": "<u-badge type=\"$1\" count=\"$2\"></u-badge>",
+        "description": "Badge 徽标数"
+    },
+    "u-tag": {
+        "prefix": "u-tag",
+        "body": "<u-tag text=\"$1\" />",
+        "description": "Tag 标签"
     }
 }
