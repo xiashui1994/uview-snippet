@@ -1,1 +1,7 @@
-{}
+{
+    "u-icon": {
+        "prefix": "u-icon",
+        "body": "<u-icon name=\"$1\"></u-icon>",
+        "description": "Icon 图标"
+    }
+}
