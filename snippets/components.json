@@ -41,5 +41,97 @@
         "prefix": "u-tag",
         "body": "<u-tag text=\"$1\" />",
         "description": "Tag 标签"
+    },
+    "u-input": {
+        "prefix": "u-input",
+        "body": "<u-input v-model=\"$1\" />",
+        "description": "Input 输入框"
+    },
+    "u-form": {
+        "prefix": "u-form",
+        "body": [
+            "<u-form :model=\"$1\">",
+            "\t<u-form-item label=\"$2\"></u-form-item>",
+            "</u-form>"
+        ],
+        "description": "Form 表单"
+    },
+    "u-calendar": {
+        "prefix": "u-calendar",
+        "body": "<u-calendar v-model=\"$1\" mode=\"$2\"></u-calendar>",
+        "description": "Calendar 日历"
+    },
+    "u-select": {
+        "prefix": "u-select",
+        "body": "<u-select v-model=\"$1\" :list=\"$2\"></u-select>",
+        "description": "Select 列选择器"
+    },
+    "u-keyboard": {
+        "prefix": "u-keyboard",
+        "body": "<u-keyboard mode=\"$1\" v-model=\"$2\"></u-keyboard>",
+        "description": "Keyboard 键盘"
+    },
+    "u-picker": {
+        "prefix": "u-picker",
+        "body": "<u-picker v-model=\"$1\" mode=\"$2\"></u-picker>",
+        "description": "Picker 选择器"
+    },
+    "u-rate": {
+        "prefix": "u-rate",
+        "body": "<u-rate :count=\"$1\" v-model=\"$2\"></u-rate>",
+        "description": "Rate 评分"
+    },
+    "u-search": {
+        "prefix": "u-search",
+        "body": "<u-search placeholder=\"$1\" v-model=\"$2\"></u-search>",
+        "description": "Search 搜索"
+    },
+    "u-number-box": {
+        "prefix": "u-number-box",
+        "body": "<u-number-box v-model=\"$1\" @change=\"$2\"></u-number-box>",
+        "description": "NumberBox 步进器"
+    },
+    "u-upload": {
+        "prefix": "u-upload",
+        "body": "<u-upload :action=\"$1\" :file-list=\"2\" ></u-upload>",
+        "description": "Upload 上传"
+    },
+    "u-verification-code": {
+        "prefix": "u-verification-code",
+        "body": "<u-verification-code :seconds=\"$1\" @end=\"$2\" @start=\"$3\"></u-verification-code>",
+        "description": "VerificationCode 验证码倒计时"
+    },
+    "u-field": {
+        "prefix": "u-field",
+        "body": "<u-field v-model=\"$1\" label=\"$2\" placeholder=\"$3\"></u-field>",
+        "description": "Field 输入框"
+    },
+    "u-checkbox": {
+        "prefix": "u-checkbox",
+        "body": [
+            "<u-checkbox-group>",
+            "\t<u-checkbox v-model=\"$1\">$2</u-checkbox>",
+            "</u-checkbox-group>"
+        ],
+        "description": "Checkbox 复选框"
+    },
+    "u-radio": {
+        "prefix": "u-radio",
+        "body": [
+            "<u-radio-group v-model=\"$1\">",
+            "\t<u-radio>$2</u-radio>",
+            "</u-radio-group>"
+        ],
+        "description": "Radio 单选框"
+    },
+    "u-switch": {
+        "prefix": "u-switch",
+        "body": "<u-switch v-model=\"$1\"></u-switch>",
+        "description": "Switch 开关选择器"
+    },
+    "u-slider": {
+        "prefix": "u-slider",
+        "body": "<u-slider v-model=\"$1\"></u-slider>",
+        "description": "Slider 滑动选择器"
     }
 }
