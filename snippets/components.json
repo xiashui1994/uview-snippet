@@ -216,5 +216,68 @@
         "prefix": "u-modal",
         "body": "<u-modal v-model=\"$1\" :content=\"$2\"></u-modal>",
         "description": "Modal 模态框"
+    },
+    "u-line": {
+        "prefix": "u-line",
+        "body": "<u-line color=\"$1\" />",
+        "description": "Line 线条"
+    },
+    "u-card": {
+        "prefix": "u-card",
+        "body": "<u-card :title=\"$1\"></u-card>",
+        "description": "Card 卡片"
+    },
+    "u-mask": {
+        "prefix": "u-mask",
+        "body": "<u-mask :show=\"$1\"></u-mask>",
+        "description": "Mask 遮罩层"
+    },
+    "u-no-network": {
+        "prefix": "u-no-network",
+        "body": "<u-no-network></u-no-network>",
+        "description": "NoNetwork 无网络提示"
+    },
+    "u-grid": {
+        "prefix": "u-grid",
+        "body": [
+            "<u-grid :col=\"$1\">",
+            "\t<u-grid-item>$2</u-grid-item>",
+            "</u-grid>"
+        ],
+        "description": "Grid 宫格布局"
+    },
+    "u-swiper": {
+        "prefix": "u-swiper",
+        "body": "<u-swiper :list=\"$1\"></u-swiper>",
+        "description": "Swiper 轮播图"
+    },
+    "u-time-line": {
+        "prefix": "u-time-line",
+        "body": [
+            "<u-time-line>",
+            "\t<u-time-line-item>$1</u-time-line-item>",
+            "</u-time-line>"
+        ],
+        "description": "TimeLine 时间轴"
+    },
+    "u-skeleton": {
+        "prefix": "u-skeleton",
+        "body": "<u-skeleton :loading=\"$1\" :animation=\"$2\" bgColor=\"$3\"></u-skeleton>",
+        "description": "Skeleton 骨架屏"
+    },
+    "u-sticky": {
+        "prefix": "u-sticky",
+        "body": "<u-sticky>$1</u-sticky>",
+        "description": "Sticky 吸顶"
+    },
+    "u-waterfall": {
+        "prefix": "u-waterfall",
+        "body": "<u-waterfall v-model=\"$1\"></u-waterfall>",
+        "description": "Waterfall 瀑布流"
+    },
+    "u-divider": {
+        "prefix": "u-divider",
+        "body": "<u-divider>$1</u-divider>",
+        "description": "Divider 分割线"
     }
 }
