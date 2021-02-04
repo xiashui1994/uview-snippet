@@ -133,5 +133,39 @@
         "prefix": "u-slider",
         "body": "<u-slider v-model=\"$1\"></u-slider>",
         "description": "Slider 滑动选择器"
+    },
+    "u-circle-progress": {
+        "prefix": "u-circle-progress",
+        "body": "<u-circle-progress active-color=\"$1\" :percent=\"$2\"></u-circle-progress>",
+        "description": "CircleProgress 圆形进度条"
+    },
+    "u-line-progress": {
+        "prefix": "u-line-progress",
+        "body": "<u-line-progress active-color=\"$1\" :percent=\"$2\"></u-line-progress>",
+        "description": "LineProgress 线形进度条"
+    },
+    "u-table": {
+        "prefix": "u-table",
+        "body": [
+            "<u-table>",
+            "\t<u-tr>",
+            "\t\t<u-th>$1</u-th>",
+            "\t</u-tr>",
+            "\t<u-tr>",
+            "\t\t<u-td>$2</u-td>",
+            "\t</u-tr>",
+            "</u-table>"
+        ],
+        "description": "Table 表格"
+    },
+    "u-count-down": {
+        "prefix": "u-count-down",
+        "body": "<u-count-down :timestamp=\"$1\"></u-count-down>",
+        "description": "CountDown 倒计时"
+    },
+    "u-count-to": {
+        "prefix": "u-count-to",
+        "body": "<u-count-to :start-val=\"$1\" :end-val=\"$2\"></u-count-to>",
+        "description": "CountTo 数字滚动"
     }
 }
