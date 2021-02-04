@@ -4,6 +4,7 @@
     "description": "uview代码提示",
     "version": "0.0.1",
     "publisher": "xiashui",
+    "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.52.0"
     },
