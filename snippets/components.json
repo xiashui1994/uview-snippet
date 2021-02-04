@@ -347,5 +347,45 @@
         "prefix": "u-section",
         "body": "<u-section title=\"$1\" sub-title=\"$2\"></u-section>",
         "description": "Section 查看更多"
+    },
+    "u-parse": {
+        "prefix": "u-parse",
+        "body": "<u-parse :html=\"$1\"></u-parse>",
+        "description": "Parse 富文本解析器"
+    },
+    "u-message-input": {
+        "prefix": "u-message-input",
+        "body": "<u-message-input mode=\"$1\"></u-message-input>",
+        "description": "MessageInput 验证码输入"
+    },
+    "u-loadmore": {
+        "prefix": "u-loadmore",
+        "body": "<u-loadmore :status=\"$1\" />",
+        "description": "loadMore 加载更多"
+    },
+    "u-read-more": {
+        "prefix": "u-read-more",
+        "body": "<u-read-more>$1</u-read-more>",
+        "description": "ReadMore 展开阅读更多"
+    },
+    "u-lazy-load": {
+        "prefix": "u-lazy-load",
+        "body": "<u-lazy-load></u-lazy-load>",
+        "description": "LazyLoad 懒加载"
+    },
+    "u-gap": {
+        "prefix": "u-gap",
+        "body": "<u-gap height=\"$1\" bg-color=\"$2\"></u-gap>",
+        "description": "Gap 间隔槽"
+    },
+    "u-avatar": {
+        "prefix": "u-avatar",
+        "body": "<u-avatar :src=\"$1\"></u-avatar>",
+        "description": "Avatar 头像"
+    },
+    "u-loading": {
+        "prefix": "u-loading",
+        "body": "<u-loading mode=\"$1\"></u-loading>",
+        "description": "Loading 加载动画"
     }
 }
