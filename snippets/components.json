@@ -279,5 +279,73 @@
         "prefix": "u-divider",
         "body": "<u-divider>$1</u-divider>",
         "description": "Divider 分割线"
+    },
+    "u-dropdown": {
+        "prefix": "u-dropdown",
+        "body": [
+            "<u-dropdown>",
+            "\t<u-dropdown-item title=\"$1\">$2</u-dropdown-item>",
+            "</u-dropdown>"
+        ],
+        "description": "Dropdown 下拉菜单"
+    },
+    "u-tabbar": {
+        "prefix": "u-tabbar",
+        "body": "<u-tabbar v-model=\"$1\" :list=\"$2\"></u-tabbar>",
+        "description": "Tabbar 底部导航栏"
+    },
+    "u-back-top": {
+        "prefix": "u-back-top",
+        "body": "<u-back-top :scroll-top=\"$1\"></u-back-top>",
+        "description": "BackTop 返回顶部"
+    },
+    "u-navbar": {
+        "prefix": "u-navbar",
+        "body": "<u-navbar back-text=\"$1\" title=\"$2\"></u-navbar>",
+        "description": "Navbar 自定义导航栏"
+    },
+    "u-tabs": {
+        "prefix": "u-tabs",
+        "body": "<u-tabs :list=\"$1\" current=\"$2\"></u-tabs>",
+        "description": "tabs 标签"
+    },
+    "u-tabs-swiper": {
+        "prefix": "u-tabs-swiper",
+        "body": "<u-tabs-swiper :list=\"$1\"></u-tabs-swiper>",
+        "description": "tabsSwiper 全屏选项卡"
+    },
+    "u-subsection": {
+        "prefix": "u-subsection",
+        "body": "<u-subsection :list=\"$1\" :current=\"$2\"></u-subsection>",
+        "description": "Subsection 分段器"
+    },
+    "u-index-list": {
+        "prefix": "u-index-list",
+        "body": [
+            "<u-index-list :scrollTop=\"$1\">",
+            "\t<u-index-anchor>$2</u-index-anchor>",
+            "</u-index-list>"
+        ],
+        "description": "IndexList 索引列表"
+    },
+    "u-steps": {
+        "prefix": "u-steps",
+        "body": "<u-steps :list=\"$1\" :current=\"$2\"></u-steps>",
+        "description": "Steps 步骤条"
+    },
+    "u-empty": {
+        "prefix": "u-empty",
+        "body": "<u-empty text=\"$1\" mode=\"$2\"></u-empty>",
+        "description": "Empty 内容为空"
+    },
+    "u-link": {
+        "prefix": "u-link",
+        "body": "<u-link href=\"$1\">$2</u-link>",
+        "description": "Link 超链接"
+    },
+    "u-section": {
+        "prefix": "u-section",
+        "body": "<u-section title=\"$1\" sub-title=\"$2\"></u-section>",
+        "description": "Section 查看更多"
     }
 }
