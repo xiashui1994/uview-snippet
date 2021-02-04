@@ -167,5 +167,54 @@
         "prefix": "u-count-to",
         "body": "<u-count-to :start-val=\"$1\" :end-val=\"$2\"></u-count-to>",
         "description": "CountTo 数字滚动"
+    },
+    "u-action-sheet": {
+        "prefix": "u-action-sheet",
+        "body": "<u-action-sheet :list=\"$1\" v-model=\"$2\"></u-action-sheet>",
+        "description": "ActionSheet 操作菜单"
+    },
+    "u-alert-tips": {
+        "prefix": "u-alert-tips",
+        "body": "<u-alert-tips type=\"$1\" :title=\"$2\" :description=\"$3\"></u-alert-tips>",
+        "description": "AlertTips 警告提示"
+    },
+    "u-toast": {
+        "prefix": "u-toast",
+        "body": "<u-toast ref=\"$1\" />",
+        "description": "Toast 消息提示"
+    },
+    "u-notice-bar": {
+        "prefix": "u-notice-bar",
+        "body": "<u-notice-bar mode=\"$1\" :list=\"$2\"></u-notice-bar>",
+        "description": "NoticeBar 滚动通知"
+    },
+    "u-top-tips": {
+        "prefix": "u-top-tips",
+        "body": "<u-top-tips ref=\"$1\"></u-top-tips>",
+        "description": "TopTips 顶部提示"
+    },
+    "u-collapse": {
+        "prefix": "u-collapse",
+        "body": [
+            "<u-collapse>",
+            "\t<u-collapse-item :title=\"$1\">$2</u-collapse-item>",
+            "</u-collapse>"
+        ],
+        "description": "Collapse 折叠面板"
+    },
+    "u-popup": {
+        "prefix": "u-popup",
+        "body": "<u-popup v-model=\"$1\">$2</u-popup>",
+        "description": "Popup 弹出层"
+    },
+    "u-swipe-action": {
+        "prefix": "u-swipe-action",
+        "body": "<u-swipe-action :options=\"$1\">$2</u-swipe-action>",
+        "description": "SwipeAction 滑动操作"
+    },
+    "u-modal": {
+        "prefix": "u-modal",
+        "body": "<u-modal v-model=\"$1\" :content=\"$2\"></u-modal>",
+        "description": "Modal 模态框"
     }
 }
