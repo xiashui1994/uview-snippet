@@ -2,7 +2,7 @@
     "name": "uview-snippet",
     "displayName": "uview-snippet",
     "description": "uview代码提示",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "xiashui",
     "icon": "images/logo.png",
     "engines": {
