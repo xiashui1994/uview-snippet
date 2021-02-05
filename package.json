@@ -2,7 +2,7 @@
     "name": "uview-snippet",
     "displayName": "uview-snippet",
     "description": "uview代码提示",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "xiashui",
     "icon": "images/logo.png",
     "engines": {
@@ -25,6 +25,14 @@
             {
                 "language": "vue-html",
                 "path": "./snippets/components.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/components-js.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/js.json"
             }
         ]
     }
